@@ -1,0 +1,23 @@
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <h1 class="text-3xl font-bold font-sans">
+      Hello world!
+    </h1>
+    <script src="//unpkg.com/alpinejs" defer></script>
+ 
+<div x-data="{ open: false }" class="font-sans">
+    <button @click="open = true">Expand</button>
+ 
+    <span x-show="open">
+      Content...
+    </span>
+</div>
+  </body>
+</html>
